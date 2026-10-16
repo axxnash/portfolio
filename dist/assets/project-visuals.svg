@@ -1,0 +1,256 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fv-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#213229"/><stop offset="1" stop-color="#0e1713"/></linearGradient>
+    <linearGradient id="fv-food" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d69b69"/><stop offset="1" stop-color="#895c3b"/></linearGradient>
+    <linearGradient id="hv-bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#26332e"/><stop offset="1" stop-color="#101713"/></linearGradient>
+    <linearGradient id="hv-wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#69736b"/><stop offset="1" stop-color="#303a33"/></linearGradient>
+    <linearGradient id="hv-floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#445249"/><stop offset="1" stop-color="#29372e"/></linearGradient>
+    <radialGradient id="mv-bg"><stop stop-color="#364031"/><stop offset="1" stop-color="#121a15"/></radialGradient>
+    <linearGradient id="mv-cap" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e4d8b9"/><stop offset=".45" stop-color="#b6a58c"/><stop offset="1" stop-color="#615b49"/></linearGradient>
+    <linearGradient id="mv-cap2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c8b593"/><stop offset=".5" stop-color="#a18b70"/><stop offset="1" stop-color="#625d49"/></linearGradient>
+    <linearGradient id="mv-stem" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#80785d"/><stop offset=".48" stop-color="#d9cdb0"/><stop offset="1" stop-color="#7b745a"/></linearGradient>
+    <linearGradient id="mv-chart" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d4f295" stop-opacity=".2"/><stop offset="1" stop-color="#d4f295" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ev-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#292536"/><stop offset="1" stop-color="#14151b"/></linearGradient>
+    <linearGradient id="ev-card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9e8dc4"/><stop offset="1" stop-color="#4c4869"/></linearGradient>
+    <linearGradient id="ev-orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c78b69"/><stop offset="1" stop-color="#635244"/></linearGradient>
+  </defs>
+  <symbol id="feedback" viewBox="0 0 720 420">
+    <rect width="720" height="420" fill="url(#fv-bg)"/>
+    <circle cx="692" cy="14" r="240" fill="#6d9054" opacity=".06"/>
+    <g transform="translate(42 35) rotate(-2 318 175)" font-family="Arial, sans-serif">
+      <rect width="636" height="352" rx="15" fill="#121b16" stroke="#52634f" stroke-opacity=".45"/>
+      <path d="M15 0H621Q636 0 636 15V39H0V15Q0 0 15 0" fill="#1c2820"/>
+      <g fill="#546253"><circle cx="19" cy="19" r="3"/><circle cx="31" cy="19" r="3"/><circle cx="43" cy="19" r="3"/></g>
+      <rect x="242" y="10" width="152" height="18" rx="6" fill="#152019"/>
+      <text x="318" y="23" fill="#7e8d7d" font-size="9" text-anchor="middle">feedback / discover</text>
+      <path d="M139 39V352" stroke="#2b382b"/>
+      <g transform="translate(20 59)">
+        <rect width="22" height="22" rx="7" fill="#d4f295"/>
+        <path d="M6 8h10M6 12h7M6 16h4" stroke="#263b20" stroke-width="2" stroke-linecap="round"/>
+        <text x="30" y="16" fill="#eff1e8" font-size="15" font-weight="700">FeedBack</text>
+        <text x="0" y="54" fill="#73816f" font-size="9" letter-spacing="1.4">YOUR COMMUNITY</text>
+        <rect x="-6" y="69" width="110" height="32" rx="7" fill="#d4f295" fill-opacity=".12"/>
+        <g stroke="#d4f295" fill="none" stroke-width="1.5"><rect x="5" y="80" width="10" height="10" rx="2"/><path d="M10 80V90M5 85H15"/></g>
+        <text x="26" y="89" fill="#d4f295" font-size="11">Discover food</text>
+        <circle cx="10" cy="121" r="5" stroke="#82917b" fill="none" stroke-width="1.5"/>
+        <text x="26" y="125" fill="#95a18f" font-size="11">My pickups</text>
+        <path d="M5 155l5-8 5 8z" fill="none" stroke="#82917b" stroke-width="1.5"/>
+        <text x="26" y="157" fill="#95a18f" font-size="11">Your impact</text>
+        <rect x="-6" y="219" width="110" height="57" rx="8" fill="#202e21"/>
+        <text x="5" y="240" fill="#d4f295" font-size="16" font-weight="700">24.8 kg</text>
+        <text x="5" y="257" fill="#90a084" font-size="9">food saved together</text>
+      </g>
+      <g transform="translate(160 61)">
+        <text fill="#eef0e9" font-size="22" font-weight="700" y="20">Good food. Second chance.</text>
+        <text fill="#899580" font-size="10" y="40">Rescue something delicious from your neighbourhood.</text>
+        <rect y="56" width="101" height="25" rx="12.5" fill="#d4f295"/>
+        <text x="50" y="72" text-anchor="middle" fill="#25321c" font-size="10" font-weight="700">Available nearby</text>
+        <rect x="108" y="56" width="66" height="25" rx="12.5" fill="#223021"/>
+        <text x="141" y="72" text-anchor="middle" fill="#b0baa5" font-size="10">Bakeries</text>
+        <rect x="181" y="56" width="78" height="25" rx="12.5" fill="#223021"/>
+        <text x="220" y="72" text-anchor="middle" fill="#b0baa5" font-size="10">Fresh produce</text>
+        <g transform="translate(0 96)">
+          <rect width="219" height="174" rx="10" fill="#1e291f" stroke="#35412e"/>
+          <path d="M10 0H209Q219 0 219 10V106H0V10Q0 0 10 0" fill="#76624c"/>
+          <ellipse cx="109" cy="87" rx="75" ry="13" fill="#332a21" opacity=".4"/>
+          <path d="M41 72c-4-21 9-39 27-42 15-3 26 6 26 20 0 15-15 30-36 32-8 1-15-2-17-10" fill="url(#fv-food)"/>
+          <path d="M54 49l10 13m0-22 12 15m0-20 10 13" stroke="#edd1a2" stroke-width="4" stroke-linecap="round" opacity=".7"/>
+          <path d="M96 65c4-31 44-43 65-23 10 10 6 26-6 34-18 13-50 12-58-3" fill="#cc9864"/>
+          <path d="M115 49l9 19m4-27 8 21m5-24 7 19" stroke="#f0c48c" stroke-width="4" stroke-linecap="round"/>
+          <path d="M131 87c-2-15 9-28 26-25 13 2 25 13 20 25-4 12-44 13-46 0" fill="#b17a4d"/>
+          <path d="M140 76q12-8 24 3" stroke="#e2b17b" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <rect x="10" y="10" width="69" height="21" rx="10" fill="#d4f295"/>
+          <text x="44" y="24" text-anchor="middle" fill="#2e3c23" font-size="9" font-weight="700">3 bags left</text>
+          <text x="12" y="129" fill="#edf0e6" font-size="13" font-weight="700">The neighbourhood bakery</text>
+          <text x="12" y="148" fill="#8d9b83" font-size="10">Fresh bakes · 0.8 km away</text>
+          <text x="207" y="160" text-anchor="end" fill="#d4f295" font-size="12" font-weight="700">Reserve ↗</text>
+        </g>
+        <g transform="translate(232 96)">
+          <rect width="219" height="174" rx="10" fill="#1e291f" stroke="#35412e"/>
+          <path d="M10 0H209Q219 0 219 10V106H0V10Q0 0 10 0" fill="#536443"/>
+          <ellipse cx="112" cy="87" rx="70" ry="13" fill="#1f2c1e" opacity=".4"/>
+          <path d="M43 53h138l-15 41H59z" fill="#9c8058"/><path d="M53 65h119M57 78h111" stroke="#5f5238" stroke-width="3"/>
+          <g fill="#a5b377"><circle cx="75" cy="49" r="18"/><circle cx="91" cy="39" r="18"/><circle cx="110" cy="52" r="18"/></g>
+          <path d="M77 49q8-14 19-15m-14 20 21-10" stroke="#647444" stroke-width="3" fill="none"/>
+          <g fill="#ca7547"><circle cx="132" cy="46" r="16"/><circle cx="151" cy="56" r="13"/></g>
+          <path d="M132 32l-5 9 9-3m15 6-3 7 8-2" stroke="#4b603b" fill="none" stroke-width="3"/>
+          <rect x="10" y="10" width="75" height="21" rx="10" fill="#d4f295"/>
+          <text x="47" y="24" text-anchor="middle" fill="#2e3c23" font-size="9" font-weight="700">Just harvested</text>
+          <text x="12" y="129" fill="#edf0e6" font-size="13" font-weight="700">A little box of goodness</text>
+          <text x="12" y="148" fill="#8d9b83" font-size="10">Seasonal produce · 1.2 km away</text>
+          <text x="207" y="160" text-anchor="end" fill="#d4f295" font-size="12" font-weight="700">Reserve ↗</text>
+        </g>
+      </g>
+    </g>
+  </symbol>
+  <symbol id="hazard" viewBox="0 0 720 420">
+    <rect width="720" height="420" fill="url(#hv-bg)"/>
+    <g font-family="Arial, sans-serif" transform="translate(40 32)">
+      <rect width="640" height="356" rx="12" fill="#111a15" stroke="#425046"/>
+      <path d="M12 0H628Q640 0 640 12V46H0V12Q0 0 12 0" fill="#1b261f"/>
+      <path d="M19 24l9-14 9 14-9 12z" stroke="#d4f295" fill="none" stroke-width="1.5"/>
+      <path d="M28 18v7m0 3v1" stroke="#d4f295" stroke-width="1.5"/>
+      <text x="48" y="28" fill="#eef0e9" font-size="13" font-weight="700">HAZARD VISION</text>
+      <rect x="518" y="14" width="104" height="20" rx="10" fill="#30432b"/>
+      <circle cx="530" cy="24" r="3" fill="#d4f295"/><text x="540" y="28" fill="#d4f295" font-size="9">Detection active</text>
+      <g transform="translate(14 60)">
+        <rect width="422" height="280" rx="6" fill="#344038"/>
+        <path d="M0 0H422V185L230 143 0 170z" fill="url(#hv-wall)"/>
+        <path d="M0 170l230-27 192 42v95H0z" fill="url(#hv-floor)"/>
+        <path d="M230 0V143M0 170l230-27 192 42" stroke="#1d2a22" stroke-width="2" opacity=".7"/>
+        <path d="M0 238l230-95 192 83M0 194l230-51 192 58M120 280l110-137 78 137" stroke="#7a8674" stroke-opacity=".2"/>
+        <path d="M28 25l128 4v101L28 141z" fill="#97a493"/>
+        <path d="M35 33l114 3v89L35 134z" fill="#b2bda7"/>
+        <path d="M88 34v95M35 83l114-7" stroke="#586851" stroke-width="6"/>
+        <path d="M35 103l24-30 25 21 30-43 35 30v44L35 134z" fill="#7d8e75"/>
+        <path d="M260 23l79 8v136l-79-15z" fill="#28372b"/><path d="M268 32l62 6v118l-62-12z" fill="#45523f"/>
+        <circle cx="319" cy="98" r="2" fill="#c0c8b4"/>
+        <path d="M38 174l105-15 60 29-101 20z" fill="#8c8a71"/><path d="M38 174v12l64 34 101-22v-10l-101 20z" fill="#646850"/>
+        <path d="M48 190v54m143-42v45m-88-26v43" stroke="#2a392c" stroke-width="7"/>
+        <path d="M80 151l26-3 18 12-27 3z" fill="#c9c6a7"/><path d="M81 151v10l16 8 27-5v-4l-27 3z" fill="#a1a58b"/>
+        <path d="M343 184l36-7 21 12-38 10z" fill="#8a785e"/><path d="M343 184v40l20 13 37-12v-36l-38 10z" fill="#655a46"/>
+        <path d="M363 199v38" stroke="#443d31"/>
+        <path d="M252 216c18-18 26 18 49 5 18-10 27 12 49 9" stroke="#19271e" stroke-width="5" fill="none"/>
+        <path d="M245 214l10-5 3 12-10 5z" fill="#c8ccae"/>
+        <path d="M211 259q20-25 40-14t46-3q20 11-4 23-43 10-82-6" fill="#a1b3a0" opacity=".42"/>
+        <g fill="none" stroke="#d4f295" stroke-width="1.3"><rect x="232" y="195" width="124" height="47" rx="2"/><path d="M232 205v-10h10m104 0h10v10m0 27v10h-10m-104 0h-10v-10" stroke-width="3"/></g>
+        <rect x="232" y="176" width="112" height="19" rx="2" fill="#d4f295"/>
+        <text x="239" y="189" fill="#263320" font-size="9" font-weight="700">Loose cable · 96%</text>
+        <rect x="202" y="236" width="106" height="36" rx="2" fill="none" stroke="#e1b57c" stroke-width="1.5"/>
+        <rect x="202" y="218" width="92" height="18" rx="2" fill="#e1b57c"/>
+        <text x="209" y="230" fill="#352b20" font-size="9" font-weight="700">Wet floor · 92%</text>
+        <rect x="332" y="167" width="75" height="78" rx="2" fill="none" stroke="#e1b57c" stroke-width="1.5"/>
+        <rect x="313" y="149" width="94" height="18" rx="2" fill="#e1b57c"/>
+        <text x="320" y="161" fill="#352b20" font-size="9" font-weight="700">Obstacle · 89%</text>
+        <rect x="11" y="11" width="100" height="22" rx="4" fill="#142219" fill-opacity=".8"/>
+        <circle cx="22" cy="22" r="3" fill="#d4f295"/><text x="32" y="26" fill="#eef0e9" font-size="9">CAM 01 · PREVIEW</text>
+        <path d="M12 244v24h24m350 0h24v-24" fill="none" stroke="#d4f295" stroke-opacity=".5"/>
+      </g>
+      <g transform="translate(455 64)">
+        <text y="13" fill="#eef0e9" font-size="14" font-weight="700">Scene analysis</text>
+        <text y="33" fill="#7f927e" font-size="10">Indoor environment</text>
+        <path d="M0 49H168" stroke="#304030"/>
+        <text y="74" fill="#d4f295" font-size="32" font-weight="700">03</text>
+        <text x="49" y="73" fill="#9aa891" font-size="11">risks detected</text>
+        <g transform="translate(0 96)">
+          <rect width="168" height="47" rx="6" fill="#202e21"/><circle cx="15" cy="17" r="3" fill="#d4f295"/>
+          <text x="27" y="21" fill="#eef0e9" font-size="11">Loose cable</text><text x="27" y="36" fill="#82947c" font-size="9">Trip hazard</text>
+          <rect y="55" width="168" height="47" rx="6" fill="#202e21"/><circle cx="15" cy="72" r="3" fill="#e1b57c"/>
+          <text x="27" y="76" fill="#eef0e9" font-size="11">Wet surface</text><text x="27" y="91" fill="#82947c" font-size="9">Slip hazard</text>
+          <rect y="110" width="168" height="47" rx="6" fill="#202e21"/><circle cx="15" cy="127" r="3" fill="#e1b57c"/>
+          <text x="27" y="131" fill="#eef0e9" font-size="11">Walkway obstruction</text><text x="27" y="146" fill="#82947c" font-size="9">Blocked path</text>
+        </g>
+        <text y="273" fill="#667d65" font-size="9" letter-spacing="1">COMPUTER VISION / AI</text>
+      </g>
+    </g>
+  </symbol>
+  <symbol id="mushroom" viewBox="0 0 720 420">
+    <rect width="720" height="420" fill="url(#mv-bg)"/>
+    <g stroke="#667256" stroke-opacity=".12" fill="none"><ellipse cx="239" cy="323" rx="178" ry="47"/><ellipse cx="239" cy="323" rx="151" ry="35"/><ellipse cx="239" cy="323" rx="124" ry="25"/></g>
+    <ellipse cx="241" cy="319" rx="128" ry="19" fill="#090e0b" opacity=".5"/>
+    <g>
+      <path d="M220 154c-6 52-11 104-25 147-5 16 51 26 59 4-8-59-10-109-5-151z" fill="url(#mv-stem)"/>
+      <path d="M230 169c-3 48-4 91-14 133m22-122c-3 48 0 91 3 123" stroke="#e5d8b9" stroke-opacity=".22" fill="none" stroke-width="2"/>
+      <path d="M126 147c8-45 43-77 99-79 62-3 97 39 106 80 2 9-7 20-23 25-46 16-128 14-166-3-12-6-19-14-16-23" fill="url(#mv-cap)"/>
+      <ellipse cx="229" cy="155" rx="102" ry="27" fill="#756b52"/>
+      <ellipse cx="229" cy="155" rx="93" ry="21" fill="#93866a"/>
+      <g stroke="#514d3c" opacity=".4" fill="none"><path d="M229 159l-89-8m89 8-81-17m81 17-64-23m64 23-38-25m38 25-14-26m14 26 15-26m-15 26 43-24m-43 24 69-20m-69 20 88-11m-88 11 92 3m-92-3 75 14m-75-14 43 20m-43-20-40 18m40-18-73 10"/></g>
+      <path d="M126 147c8-45 43-77 99-79 62-3 97 39 106 80-30-4-63-12-102-9-49 3-68 13-103 8" fill="url(#mv-cap)"/>
+      <path d="M154 111c15-20 39-29 66-31" fill="none" stroke="#eee4cc" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+      <g fill="#e0d4b6" opacity=".35"><ellipse cx="187" cy="104" rx="5" ry="2" transform="rotate(-20 187 104)"/><ellipse cx="257" cy="91" rx="6" ry="2" transform="rotate(20 257 91)"/><ellipse cx="289" cy="117" rx="4" ry="2"/><ellipse cx="213" cy="124" rx="4" ry="1.5"/></g>
+      <path d="M289 214c-2 34-9 69-15 95-4 16 31 20 38 7 1-39 1-69 6-102z" fill="url(#mv-stem)"/>
+      <path d="M238 207c7-31 28-50 64-49 38 1 63 23 69 52 3 16-25 26-65 23-40-2-72-11-68-26" fill="url(#mv-cap2)"/>
+      <ellipse cx="304" cy="215" rx="65" ry="17" fill="#706b50"/>
+      <g fill="none" stroke="#aaa081" stroke-width="1.5" opacity=".5"><path d="M302 216l-52-6m52 6-34-13m34 13 9-13m-9 13 39-8m-39 8 58 3m-58-3 31 10m-31-10-34 6"/></g>
+      <path d="M238 207c7-31 28-50 64-49 38 1 63 23 69 52-26-1-43-6-70-7-26 0-43 5-63 3" fill="url(#mv-cap2)"/>
+      <path d="M269 177q17-12 34-10" stroke="#e2d0ad" stroke-width="2" stroke-opacity=".4" fill="none"/>
+      <path d="M153 245c0 22-5 45-10 62-4 11 23 17 29 7l8-68z" fill="url(#mv-stem)"/>
+      <path d="M109 242c3-27 25-45 53-42 30 2 50 22 52 45 2 12-25 18-53 16-30-2-53-8-52-19" fill="url(#mv-cap2)"/>
+      <ellipse cx="162" cy="248" rx="51" ry="12" fill="#7f7558"/>
+      <path d="M109 242c3-27 25-45 53-42 30 2 50 22 52 45-35-7-69-5-105-3" fill="url(#mv-cap2)"/>
+      <path d="M131 218q16-13 31-10" stroke="#e2d0ad" stroke-width="2" stroke-opacity=".35" fill="none"/>
+      <path d="M166 318q8-22 17-22-3 15-12 23m91 6q7-24 16-25-2 19-12 26m-39-4q-6-22-14-25 0 17 10 26" fill="#516449"/>
+    </g>
+    <g font-family="Arial, sans-serif">
+      <text x="43" y="43" fill="#abb79c" font-size="10" letter-spacing="2.5">CONNECTED CULTIVATION</text>
+      <circle cx="43" cy="371" r="3" fill="#d4f295"/><text x="54" y="375" fill="#9eac8f" font-size="10">Environment in balance</text>
+      <g transform="translate(421 51)">
+        <rect width="258" height="318" rx="13" fill="#162018" fill-opacity=".94" stroke="#46513d"/>
+        <text x="20" y="30" fill="#eef0e9" font-size="15" font-weight="700">Grow room / 01</text>
+        <rect x="183" y="16" width="55" height="22" rx="11" fill="#304227"/><circle cx="195" cy="27" r="3" fill="#d4f295"/><text x="204" y="31" fill="#d4f295" font-size="9">Live</text>
+        <text x="20" y="52" fill="#84947b" font-size="10">A little care. A better harvest.</text>
+        <path d="M20 69H238" stroke="#33402c"/>
+        <text x="20" y="94" fill="#91a185" font-size="10">Humidity</text>
+        <text x="20" y="126" fill="#eef0e9" font-size="30" font-weight="700">86<tspan font-size="17" fill="#9eae91"> %</tspan></text>
+        <text x="141" y="94" fill="#91a185" font-size="10">Temperature</text>
+        <text x="141" y="126" fill="#eef0e9" font-size="30" font-weight="700">24<tspan font-size="17" fill="#9eae91"> °C</tspan></text>
+        <path d="M123 83v45" stroke="#33402c"/>
+        <rect x="20" y="144" width="218" height="28" rx="5" fill="#2b3b25"/>
+        <path d="M31 157l3 3 6-6" fill="none" stroke="#d4f295" stroke-width="1.5"/><text x="47" y="162" fill="#c1d6a6" font-size="10">Optimal growing conditions</text>
+        <text x="20" y="199" fill="#9aa98e" font-size="10">Humidity over time</text><text x="238" y="199" text-anchor="end" fill="#687d60" font-size="9">6 HOURS</text>
+        <g stroke="#33402c" stroke-width=".7"><path d="M20 221H238M20 244H238M20 267H238"/></g>
+        <path d="M20 254c15 0 19-25 34-24s17 13 31 7 21-22 34-18 16 19 31 13 14-16 30-13 15 10 29 3 18-8 29-6v51H20z" fill="url(#mv-chart)"/>
+        <path d="M20 254c15 0 19-25 34-24s17 13 31 7 21-22 34-18 16 19 31 13 14-16 30-13 15 10 29 3 18-8 29-6" stroke="#d4f295" stroke-width="2" fill="none"/>
+        <circle cx="238" cy="216" r="3.5" fill="#d4f295"/>
+        <g fill="#6c8063" font-size="8"><text x="20" y="286">06:00</text><text x="119" y="286">09:00</text><text x="238" y="286" text-anchor="end">12:00</text></g>
+      </g>
+      <g stroke="#a6c580" stroke-opacity=".5" fill="none"><path d="M346 119h30l26 32h19"/><circle cx="343" cy="119" r="3"/></g>
+    </g>
+  </symbol>
+  <symbol id="events" viewBox="0 0 720 420">
+    <rect width="720" height="420" fill="url(#ev-bg)"/>
+    <circle cx="604" cy="51" r="180" fill="#9e8dc4" opacity=".035"/>
+    <g font-family="Arial, sans-serif" transform="translate(47 34) rotate(1.5 313 176)">
+      <rect width="626" height="352" rx="13" fill="#14171a" stroke="#48464e"/>
+      <path d="M13 0H613Q626 0 626 13V47H0V13Q0 0 13 0" fill="#1e2025"/>
+      <path d="M20 19l7-7 7 7-7 7zM20 28l7-7 7 7-7 7z" fill="#c7b4ee"/>
+      <text x="44" y="29" fill="#f0edf3" font-size="14" font-weight="700">campus.</text>
+      <text x="231" y="28" fill="#e7e3ec" font-size="10">Discover</text><text x="301" y="28" fill="#7f818c" font-size="10">Saved events</text><text x="388" y="28" fill="#7f818c" font-size="10">My calendar</text>
+      <path d="M231 46h42" stroke="#c7b4ee" stroke-width="2"/>
+      <circle cx="596" cy="24" r="12" fill="#3c3848"/><text x="596" y="28" text-anchor="middle" fill="#c7b4ee" font-size="9" font-weight="700">AK</text>
+      <g transform="translate(25 69)">
+        <text y="23" fill="#f0edf3" font-size="25" font-weight="700">Find your next thing.</text>
+        <text y="44" fill="#8e8b99" font-size="11">Good people. New ideas. A campus full of possibilities.</text>
+        <rect x="427" y="7" width="149" height="31" rx="7" fill="#23242b" stroke="#37363e"/>
+        <circle cx="442" cy="21" r="4" stroke="#92909e" fill="none"/><path d="M445 24l3 3" stroke="#92909e"/><text x="459" y="26" fill="#777786" font-size="10">Search something new</text>
+        <g transform="translate(0 65)">
+          <rect width="73" height="25" rx="12.5" fill="#c7b4ee"/><text x="36" y="17" text-anchor="middle" fill="#2c253c" font-size="10" font-weight="700">For you</text>
+          <rect x="82" width="90" height="25" rx="12.5" fill="#26252d"/><text x="127" y="17" text-anchor="middle" fill="#aaa4b7" font-size="10">Technology</text>
+          <rect x="181" width="65" height="25" rx="12.5" fill="#26252d"/><text x="213" y="17" text-anchor="middle" fill="#aaa4b7" font-size="10">Creative</text>
+          <rect x="255" width="77" height="25" rx="12.5" fill="#26252d"/><text x="293" y="17" text-anchor="middle" fill="#aaa4b7" font-size="10">Community</text>
+          <text x="576" y="17" text-anchor="end" fill="#72717d" font-size="9">CURATED FOR YOU</text>
+        </g>
+        <g transform="translate(0 105)">
+          <rect width="182" height="157" rx="9" fill="#202127" stroke="#393540"/>
+          <path d="M9 0h164q9 0 9 9v89H0V9q0-9 9-9" fill="url(#ev-card)"/>
+          <g fill="none" stroke="#e1d4f5" stroke-width="2" opacity=".8"><path d="M91 18l34 20v39L91 97 57 77V38z"/><path d="M57 38l34 21 34-21M91 59v38M91 18v41"/><path d="M75 28l34 20v39M74 87V48l34-20" opacity=".5"/></g>
+          <rect x="10" y="10" width="48" height="20" rx="4" fill="#211e2b" fill-opacity=".8"/><text x="34" y="24" text-anchor="middle" fill="#e1d3f7" font-size="9">OCT 24</text>
+          <circle cx="163" cy="20" r="10" fill="#211e2b" fill-opacity=".4"/><path d="M160 16h6v8l-3-2-3 2z" stroke="#e1d3f7" fill="none"/>
+          <text x="11" y="119" fill="#eee9f5" font-size="12" font-weight="700">Build something together</text>
+          <text x="11" y="136" fill="#8b8797" font-size="9">Hackathon · Innovation lab</text>
+          <rect x="110" y="77" width="63" height="17" rx="8" fill="#d4f295"/><text x="141" y="89" text-anchor="middle" fill="#304025" font-size="8" font-weight="700">Great match</text>
+        </g>
+        <g transform="translate(197 105)">
+          <rect width="182" height="157" rx="9" fill="#202127" stroke="#393540"/>
+          <path d="M9 0h164q9 0 9 9v89H0V9q0-9 9-9" fill="url(#ev-orange)"/>
+          <circle cx="91" cy="51" r="37" fill="none" stroke="#e2b891" stroke-width="1.5"/><circle cx="91" cy="51" r="26" fill="none" stroke="#e2b891" stroke-width="1.5"/>
+          <path d="M67 89l48-76M58 66l67-32M60 36l61 31M78 14l26 75" stroke="#edc4a1" stroke-width="1.5"/>
+          <rect x="10" y="10" width="48" height="20" rx="4" fill="#30251f" fill-opacity=".8"/><text x="34" y="24" text-anchor="middle" fill="#f4dfc9" font-size="9">OCT 26</text>
+          <circle cx="163" cy="20" r="10" fill="#30251f" fill-opacity=".4"/><path d="M160 16h6v8l-3-2-3 2z" stroke="#f4dfc9" fill="none"/>
+          <text x="11" y="119" fill="#eee9f5" font-size="12" font-weight="700">Ideas that go somewhere</text>
+          <text x="11" y="136" fill="#8b8797" font-size="9">Design talk · Main auditorium</text>
+        </g>
+        <g transform="translate(394 105)">
+          <rect width="182" height="157" rx="9" fill="#202127" stroke="#393540"/>
+          <path d="M9 0h164q9 0 9 9v89H0V9q0-9 9-9" fill="#4b6454"/>
+          <path d="M91 11c-33 0-48 34-27 57l27 25 27-25c21-23 6-57-27-57" fill="#94ab83"/>
+          <path d="M91 85V28m0 38L70 47m21 8 18-16" stroke="#465e44" stroke-width="2" fill="none"/>
+          <rect x="10" y="10" width="48" height="20" rx="4" fill="#243529" fill-opacity=".8"/><text x="34" y="24" text-anchor="middle" fill="#d6e4ca" font-size="9">OCT 28</text>
+          <circle cx="163" cy="20" r="10" fill="#243529" fill-opacity=".4"/><path d="M160 16h6v8l-3-2-3 2z" stroke="#d6e4ca" fill="none"/>
+          <text x="11" y="119" fill="#eee9f5" font-size="12" font-weight="700">Small acts. Real impact.</text>
+          <text x="11" y="136" fill="#8b8797" font-size="9">Volunteering · Campus garden</text>
+        </g>
+      </g>
+    </g>
+  </symbol>
+</svg>
