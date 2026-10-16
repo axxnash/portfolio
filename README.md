@@ -21,7 +21,7 @@ The included `render.yaml` defines a free Render Static Site. Connect this repos
 
 ## Content and assets
 
-Portfolio facts come from the supplied resume. Project preview illustrations are clearly labeled interface or research concepts, not product screenshots. The mushroom forecasting project is marked in development. No professional employment, live project demos, or performance results are invented.
+Portfolio facts and project write-ups come from the supplied resume. The project section uses detailed text instead of project imagery. The mushroom forecasting project is marked in development. No professional employment, live project demos, or performance results are invented.
 
 `dist/assets/abinash-3d.png` was created with built-in image generation using the supplied character sheet. It is a transparent 3D-style raster portrait with CSS depth and motion, not a rigged or rotatable 3D model.
 

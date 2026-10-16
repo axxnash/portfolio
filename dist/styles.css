@@ -25,3 +25,28 @@ body{overflow-x:clip}
 .hero-bottom,.leadership-list .role-description,.email-text{color:#929f87}
 @media(max-width:640px){.hero h1>br:nth-of-type(1){display:block}.filter{min-height:40px}.copy-email,.contact-github{min-height:40px}.motion-toggle{min-height:36px}.hero h1{line-height:1.04}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.js-ready .reveal{opacity:1;transform:none}.portrait-wrap{transform:none}}
+
+/* Text-first project write-ups. */
+.project-grid{align-items:stretch;gap:22px}
+.project-card{display:flex;flex-direction:column;min-width:0;padding:27px 25px 23px;background:linear-gradient(145deg,#141a15,#101411);border:1px solid #d4f29518;border-radius:10px;transition:border-color .25s,background .25s}
+.project-card:hover{border-color:#d4f29542;background:linear-gradient(145deg,#171e17,#111511)}
+.project-card-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:18px}
+.project-card-head .project-number{color:var(--accent);font-size:9px;letter-spacing:1px}
+.project-type{font-size:8px;line-height:1.5;letter-spacing:1.1px;text-align:right;color:#8e9b82}
+.project-heading{font-size:clamp(18px,1.8vw,23px);line-height:1.35;letter-spacing:-.7px;margin:0 0 15px;color:#e5eade}
+.project-description{font-size:12px;line-height:1.9;color:#a0aa96;margin-bottom:19px}
+.project-detail{display:grid;grid-template-columns:25px 1fr;gap:11px;padding:14px 0;border-top:1px solid #d4f29512}
+.detail-mark{font:9px/1.6 monospace;color:#9ab27f}
+.project-detail p{font-size:10px;line-height:1.75;color:#8f9d82;margin:0}
+.project-detail strong{display:block;color:#cad5be;font-weight:550;margin-bottom:3px}
+.project-card-foot{margin-top:auto;padding-top:17px;display:flex;flex-direction:column;align-items:flex-start;gap:16px}
+.project-card-foot .project-tags{gap:5px}
+.project-card-foot .project-tags>span{font-size:8px;padding:4px 7px}
+.project-repo{display:inline-flex;align-items:center;gap:12px;padding:9px 0 4px;color:#cad7ba;font-size:10px;border-bottom:1px solid #d4f29535}
+.project-repo:hover{color:var(--accent);border-color:var(--accent)}
+.project-repo .icon{width:13px;height:13px}
+.project-in-progress{display:flex;align-items:center;gap:9px;padding-top:6px;color:#acbc9e;font-size:9px}
+.project-in-progress .status-dot{width:5px;height:5px}
+@media(max-width:860px){.project-card{padding:22px 19px 19px}.project-heading{font-size:18px}.project-description{font-size:11px}.project-type{font-size:7px}}
+@media(max-width:640px){.project-grid{gap:16px}.project-card{padding:23px 21px 20px}.project-card-head{margin-bottom:15px}.project-heading{font-size:19px}.project-description{font-size:12px;line-height:1.9;margin-bottom:17px}.project-detail{padding:13px 0;gap:9px}.project-detail p{font-size:10px}.project-card-foot{gap:12px}}
+@media(max-width:370px){.project-card{padding-inline:17px}.project-type{font-size:6px;letter-spacing:.7px}}
