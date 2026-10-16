@@ -15,6 +15,10 @@ From this directory, run `npm run dev` and visit `http://127.0.0.1:4173`.
 
 The `dist` directory can be served by any static web host. `.openai/hosting.json` identifies the private Sites publication.
 
+## Deploy on Render
+
+The included `render.yaml` defines a free Render Static Site. Connect this repository in Render and select **Blueprint**; Render will publish `dist/` and redeploy on each commit.
+
 ## Content and assets
 
 Portfolio facts come from the supplied resume. Project preview illustrations are clearly labeled interface or research concepts, not product screenshots. The mushroom forecasting project is marked in development. No professional employment, live project demos, or performance results are invented.
